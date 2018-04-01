@@ -33,7 +33,6 @@ public class Mark extends BaseEntity implements Comparable<Mark>{
         return oldRecord;
     }
 
-    @Override
     public int compareTo(Mark o) {
         return this.getCreatedDate().compareTo(o.getCreatedDate());
     }
